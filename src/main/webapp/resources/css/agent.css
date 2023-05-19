@@ -1,0 +1,36 @@
+
+.agent{
+    max-width: 1000px;
+    margin: 0px auto;
+    background-color: #FFFFFF;
+}
+.Matrics{
+    justify-content: space-between;
+    display: flex;
+    font-size: 16px;
+}
+.h3Matrics{
+    text-align: center;
+    font-size: 30px;
+    margin-top: -15px;
+}
+
+.tabel-agent-list{
+    font-size: 16px;
+}
+table{
+    width: 100%;
+    background-color: #FFFFFF;
+}
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td{
+    padding: 5px 10px;
+    text-align: center;
+}
+#title-table{
+    background-color: #E6E6E6;
+    color: #000;
+}

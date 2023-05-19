@@ -1,0 +1,97 @@
+.back {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin: 20px;
+}
+
+.back a {
+	text-decoration: none;
+	color: #4a47a3;
+	font-size: 25px;
+}
+
+.back a img {
+	width: 25px;
+	height: 25px;
+	margin-right: 10px;
+}
+
+.tabel-call-history {
+	width: 610px;
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+	max-width: 1000px;
+	margin: 0px auto;
+	padding-top: 60px;
+	/*di chuyển qua trái 1 xíu*/
+	margin-left: 170px;
+}
+
+table {
+	width: 100%;
+}
+
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+th, td {
+	padding: 5px 10px;
+	text-align: left;
+}
+
+#play {
+	color: #FFFFFF;
+	background-color: #5405BD;
+	border-radius: 20px;
+	font-size: 16px;
+}
+
+#title-table {
+	background-color: #9747FF;
+	color: #FFFFFF;
+}
+
+.form-update {
+	padding-top: 87px;
+}
+/*xếp 8 thẻ input trong form thành 1 hàng dọc*/
+.form-update input {
+	display: block;
+	width: 388px;
+	height: 26px;
+	border: 1px solid #000;
+	border-bottom-width: 0px;
+	margin-left: 205px;
+	/*chỉnh cho text đồng bộ với table*/
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+	padding-left: 10px;
+}
+/*viền input màu đen cho thẻ input feed_back*/
+.form-update input[name="company"] {
+	border-bottom-width: 1px;
+}
+/*đặt form nằm bên phải của bảng*/
+.form-update {
+	margin-left: 400px;
+	margin-top: -233px;
+}
+
+.btn {
+	display: inline-block;
+	margin-top: 20px;
+}
+
+#btn-update {
+	width: 100px;
+	height: 30px;
+	background-color: #4CAF50;
+	color: white;
+	margin-left: 500px;
+	border-radius: 5px;
+	border: none;
+	cursor: pointer;
+}

@@ -1,0 +1,45 @@
+
+.Live{
+    max-width: 1000px;
+    margin: 0px auto;
+    background-color: #FFFFFF;
+}
+
+.service-list{
+    display: flex;
+    gap: 20px;
+}
+.service-item{
+    /* display: flex; */
+    width: 250px;
+    height: 210px;
+    border-radius: 10px;
+    background-color: #E6E6E6;
+    padding: 0px;
+}
+
+#servicelevelchart{
+    margin: -50px auto;
+    /* background-color: #FFFFFF; */
+    /* padding: 20px; */
+}
+.ChartLive{
+    max-width: 200px;
+    margin: -60px auto;
+}
+.ChartLive2{
+    max-width: 300px;
+    margin: -90px auto;
+}
+
+.service-agent{
+    display: flex;
+    gap: 20px;
+}
+.item{
+    width: 500px;
+    height: 320px;
+    border-radius: 10px;
+    background-color: #E6E6E6;
+    padding: 0px;
+}

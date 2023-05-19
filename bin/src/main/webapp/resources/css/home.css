@@ -1,0 +1,92 @@
+.content{
+    max-width: 1200px;
+    height: 600px;
+    margin-left: 200px;
+    margin: 0px auto;
+    display: flex;
+    gap: 10px;
+    /* background-color: #87c2cb; */
+    text-align: center;
+}
+.content1{
+    width: 500px;
+    height: 500px;
+    font-size: 35px;
+    text-align: center;
+    /* background-color: aqua; */
+}
+#pictureHome{
+    background-size: cover;
+    background-position: center;
+    margin-top: 200px;
+    /* background-color: bisque; */
+}
+.content2{
+    margin-top: 200px;
+    padding: 50px;
+}
+.Button{
+    display: flex;
+    height: 100px;
+    width: 500px;
+    gap: 20px;
+}
+.btn-item{
+    border-radius: 20px;
+    background-color: #5405BD;
+    width: 200px;
+    height: 60px;
+    border: none;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+}
+.Button1{
+    border-radius: 20px;
+    font-size: 16px;
+    border: none;
+    color: white;
+    text-decoration: none;
+    /* text-align: center; */
+    margin: 20px 20px;
+}
+.Button2{
+    border-radius: 20px;
+    font-size: 16px;
+    border: none;
+    color: white;
+    text-decoration: none;
+}
+.footer{
+    color: #FFFFFF;
+    max-width: 1200px;
+    margin: 0px auto;
+    height: 400px;
+    padding: 5px;
+}
+.container-footer{
+    display: flex;
+}
+.contentfooter{
+    width: auto;
+    height: 300px;
+    font-size: 30px;
+}
+.footer-menu{
+    width: 240px;
+    height: 300px;
+    list-style: none;
+    text-decoration: none;
+    background-color: #FFFFFF;
+    padding: 10px auto;
+}
+
+.footer-menu li a{
+    display: inline;
+    font-size: 16px;
+    color: #333;
+    text-decoration: none;
+}

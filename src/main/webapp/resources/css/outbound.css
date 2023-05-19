@@ -1,0 +1,18 @@
+
+.outbound{
+    max-width: 1000px;
+    margin: 0px auto;
+    background-color: #FFFFFF;
+}
+.outbound-list{
+    display: flex;
+    gap: 20px;
+}
+.outbound-item2{
+    /* display: flex; */
+    width: 400px;
+    height: 130px;
+    border-radius: 10px;
+    background-color: #FFF;
+    padding: 0px;
+}

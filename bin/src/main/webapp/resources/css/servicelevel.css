@@ -1,0 +1,139 @@
+
+body{
+    background-size: cover;
+}
+.container{
+    max-width: 1000px;
+    margin: 0px auto;
+}
+
+#headertitle{
+    background-color: #5405BD;
+    color: #FFFFFF;
+    max-width: 1000px;
+    margin: 0px auto;
+    height: 30px;
+}
+#header{
+    max-width: 1000px;
+    margin: 0px auto;
+    background-color: #FFFFFF;
+}
+.Live{
+    max-width: 1000px;
+    margin: 0px auto;
+    background-color: #FFFFFF;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+}
+
+#logo{
+    padding: 20px 0px;
+    list-style: none;
+}
+#logo img{
+    max-width: 100px;
+    height: auto;
+    
+}
+
+#main-menu{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    /* border-bottom: 3px solid #ddd; */
+}
+
+#main-menu li{
+    margin-right: 10px;
+}
+
+#main-menu li a{
+    color: #A49F9F;
+    display: block;
+    padding: 18px 20px;
+    text-decoration: none;
+    position: relative;
+    font-size: 16px;
+}
+#main-menu li a::after{
+    content: "";
+    height: 3px;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    bottom: -3px;
+    background: #FFFFFF;
+}
+
+#main-menu li.active a::after, #main-menu li:hover a::after{
+    background: #5405BD;
+}
+
+.service-list{
+    display: flex;
+    gap: 20px;
+}
+.service-item{
+    /* display: flex; */
+    width: 250px;
+    height: 130px;
+    border-radius: 10px;
+    background-color: #E6E6E6;
+    padding: 0px;
+}
+
+.service-list2{
+    display: flex;
+    gap: 20px;
+}
+.service-item2{
+    /* display: flex; */
+    width: 400px;
+    height: 130px;
+    border-radius: 10px;
+    background-color: #E6E6E6;
+    padding: 0px;
+}
+
+#servicelevelchart{
+    margin: -50px auto;
+    /* background-color: #FFFFFF; */
+    /* padding: 20px; */
+}
+.ChartLive{
+    max-width: 200px;
+    margin: -40px auto;
+}
+.ChartLive2{
+    max-width: 800px;
+    max-height: 200px;
+}
+
+.service-agent{
+    display: flex;
+    gap: 20px;
+}
+.item1{
+    width: 350px;
+    height: 250px;
+    border-radius: 10px;
+    background-color: #E6E6E6;
+    padding: 0px;
+}
+.item2{
+    width: 650px;
+    height: 250px;
+    border-radius: 10px;
+    background-color: #E6E6E6;
+    padding: 0px;
+}
+.chart2{
+    max-width: 500px;
+    margin: 0px auto;
+}
